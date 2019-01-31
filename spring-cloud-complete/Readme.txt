@@ -12,3 +12,11 @@
 12) ribbon usign eureka client for discovering service instance.
 
 This example is a complete set of how we can hide access to the application services from outside world by gateway pattern. Also, we are dynamically fetching the list of services from eureka server for load balancing. This is an example of ribbon dynamic server details load balancing.
+
+Technology used:
+===============
+Spring boot.
+Spring cloud.
+Netflix-eureka
+Netflix-ribbon
+Netflix-zuul
