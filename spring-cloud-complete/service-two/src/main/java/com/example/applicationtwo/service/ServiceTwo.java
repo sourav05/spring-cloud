@@ -25,7 +25,7 @@ public class ServiceTwo {
 	}
 	
 	public User getUser(long id){
-		User user = serviceTwoRepository.findOne(id);
+		User user = serviceTwoRepository.findById(id).orElse(new User());
 		return user;
 	}
 	

@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: service-two
+  cloud:
+    config:
+      username: sourav
+      password: '$2a$10$A2wlbqP2AA5qcdh3IVQ0OOtgD5iIwGLeRHYTqNuodQubGqnsQi7i6'
+
+server:
+  port: 8092
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    shutdown:
+      enabled: true
+    restrat:
+      enabled: true

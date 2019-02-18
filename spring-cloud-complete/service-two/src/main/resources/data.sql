@@ -1,0 +1,1 @@
+insert into user column(id,username, password, active, organisation, location, age) values(1,'sourav', 'password',true, 'Cognizant', 'Kolkata', 31);
