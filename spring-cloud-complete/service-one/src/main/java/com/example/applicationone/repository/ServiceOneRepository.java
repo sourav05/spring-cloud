@@ -8,4 +8,5 @@ import com.example.applicationone.model.User;
 @Repository
 public interface ServiceOneRepository extends CrudRepository<User, Long>{
 
+	public User findByUsername(String username);
 }

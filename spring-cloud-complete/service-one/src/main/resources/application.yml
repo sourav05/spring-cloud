@@ -1,0 +1,17 @@
+#spring.application.name=service-one
+#server.port=8091
+
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+#eureka.client.serviceUrl.defaultZone=http://localhost:9999/eureka
+
+#management.security.enabled=false
+#management.endpoints.threaddump.enabled=true
+#management.endpoints.shutdown.enabled=true
+#management.endpoints.metrics.enabled=true
+#management.endpoints.web.exposure.include=*
+
+#spring.datasource.driver-class-name=org.hsqldb.jdbcDriver
+#spring.datasource.url=jdbc:hsqldb:hsql:/localhost/test
+#spring.datasource.username=sa
+#spring.datasource.password=

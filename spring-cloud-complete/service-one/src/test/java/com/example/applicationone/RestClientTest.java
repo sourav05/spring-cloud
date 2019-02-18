@@ -19,7 +19,7 @@ public class RestClientTest {
 	public void addUser(){
 		RestTemplate template = new RestTemplate();
 		User user = new User();
-		user.setName("NameOne");
+		user.setUsername("NameOne");
 		user.setOrganisation("OrganizationOne");
 		user.setLocation("LocationOne");
 		user.setAge(30);
@@ -34,7 +34,7 @@ public class RestClientTest {
 		ResponseEntity<User[]> usersObject = template.getForEntity("http://localhost:8080/service-one/get", User[].class);
 		Stream.of(usersObject.getBody()).forEach(e -> {
 			System.out.println("User Id : " + e.getId());
-			System.out.println("User Name : " + e.getName());
+			System.out.println("User Name : " + e.getUsername());
 		});
 	}
 

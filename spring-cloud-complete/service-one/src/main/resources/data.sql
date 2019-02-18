@@ -1,0 +1,1 @@
+/*insert into User_tbl column(ID,USERNAME,PASSWORD,ACTIVE,ORGANISATION,LOCATION,AGE) values(1, 'sourav','password',true,'CTS','Kolkata',31);*/
